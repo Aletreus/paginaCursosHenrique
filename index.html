@@ -14,9 +14,11 @@
             display: flex;
             padding: 0 20px;
             border-bottom: 5px solid yellow;
-            justify-content: center;
+            justify-content: space-between;
             background-color: rgb(247, 247, 247);
             position: fixed;
+            box-sizing: border-box;
+            box-shadow: 5px 5px 5px black;
         }
 
         footer{
@@ -56,9 +58,7 @@
         #logo{
             height: 50px;
             width: auto;
-            margin-right: 20px;
-            position: absolute;
-            left: 20px;
+            margin-left: 0px;
 
         }
 
@@ -194,10 +194,17 @@
             font-size: 25px;
         }
 
+        #logocedup{
+            height: 50px;
+            width: auto;
+            margin-right: 0px;
+        }
+
     </style>
     <header>
         <a href="https://aletreus.github.io/PaginaCursoHenrique/"><img src="imagens/logoPronatec3.png" alt="Pronatec" id="logo"></a>
         <h2>Curso Técnico de Desenvolvimento de Sistemas</h2>
+        <img src="imagens/cedup.png" alt="Cedup" id="logocedup">
     </header>
 </head>
 <body>
@@ -311,6 +318,3 @@
     </footer>
 </body>
 </html>
-
-
-
